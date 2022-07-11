@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KWExtentionsTool'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of KWExtentionsTool.'
+  s.version          = '0.1.1'
+  s.summary          = '分类组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'KWExtentionsTool/Classes/**/*'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'KWExtentionsTool' => ['KWExtentionsTool/Assets/*.png']

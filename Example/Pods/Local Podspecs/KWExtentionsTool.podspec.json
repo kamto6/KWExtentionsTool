@@ -1,7 +1,7 @@
 {
   "name": "KWExtentionsTool",
   "version": "0.1.0",
-  "summary": "A short description of KWExtentionsTool.",
+  "summary": "分类组件",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Jiekangwei/KWExtentionsTool",
   "license": {
@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "KWExtentionsTool/Classes/**/*"
+  "source_files": "KWExtentionsTool/Classes/**/*",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

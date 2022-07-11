@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import KWExtentionsTool
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let str = "这是一条测验"
+        str.run()
     }
 
     override func didReceiveMemoryWarning() {
