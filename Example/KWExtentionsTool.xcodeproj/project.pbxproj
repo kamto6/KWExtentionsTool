@@ -31,7 +31,7 @@
 		E193DDA3E006B2AD6235E821 /* Pods-KWExtentionsTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWExtentionsTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-KWExtentionsTool_Tests/Pods-KWExtentionsTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E61FADEFFB4ABC3605C256AA /* Pods_KWExtentionsTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWExtentionsTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE536617B60D7804A82C03A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F6CE559D678B1A17DC297A6D /* KWExtentionsTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KWExtentionsTool.podspec; path = ../KWExtentionsTool.podspec; sourceTree = "<group>"; };
+		F6CE559D678B1A17DC297A6D /* KWExtentionsTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KWExtentionsTool.podspec; path = ../KWExtentionsTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

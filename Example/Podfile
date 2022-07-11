@@ -6,8 +6,4 @@ platform :ios, '12.0'
 target 'KWExtentionsTool_Example' do
   pod 'KWExtentionsTool', :path => '../'
 
-  target 'KWExtentionsTool_Tests' do
-    inherit! :search_paths
-
-  end
 end

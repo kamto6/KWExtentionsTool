@@ -1,6 +1,6 @@
 {
   "name": "KWExtentionsTool",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "分类组件",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Jiekangwei/KWExtentionsTool",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Jiekangwei/KWExtentionsTool.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"

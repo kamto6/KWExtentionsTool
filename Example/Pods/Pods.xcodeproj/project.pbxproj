@@ -12,12 +12,9 @@
 		2B15D1CBB35AC997F74225C69BB117C4 /* KWExtentionsTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E55438FFBD59F07A1AC78C1C87369A8 /* KWExtentionsTool-dummy.m */; };
 		3A962F01F11D3476924CD3329EA33BF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3C9001A9C2358049E7FEFB8CC93D5CBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6DD062FC42BFE647BD840F39E0A04D53 /* Pods-KWExtentionsTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC48BF32F1BBEF2B790208749A58F1E /* Pods-KWExtentionsTool_Example-dummy.m */; };
-		7583CC63F514E42DAA3C780007D31EE3 /* Pods-KWExtentionsTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E78C3131BB0C5E2565F4F2DB1EE949 /* Pods-KWExtentionsTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DD062FC42BFE647BD840F39E0A04D53 /* Pods-KWExtentionsTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B638A374BCBC18472C2804CCD4AA22 /* Pods-KWExtentionsTool_Example-dummy.m */; };
+		7583CC63F514E42DAA3C780007D31EE3 /* Pods-KWExtentionsTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C442FEE4AFACF1B9DBEDC3C7F944D0 /* Pods-KWExtentionsTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4E256F386FA4D75C77568C479CD90CC /* Int+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55BC138E3094E22438481945FA49A90 /* Int+Extentions.swift */; };
-		BBBFC1F43781C54CC961236D20E8ECE5 /* Pods-KWExtentionsTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BC571242B343AD17B1C03413736C6 /* Pods-KWExtentionsTool_Tests-dummy.m */; };
-		E98CE93928947E4123F52D8800078668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EA913F4D1E618A4553E9AE28AAD9A69E /* Pods-KWExtentionsTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 392FA98CCB815BD47034596F3092B1C6 /* Pods-KWExtentionsTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,50 +25,34 @@
 			remoteGlobalIDString = B2495CCFA52EEC39AE3FFE72481A3B37;
 			remoteInfo = KWExtentionsTool;
 		};
-		DF383A9E7F5B30AD9AB78E0FD1EB3BE2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A167AD892E7316566CD833D2BE32E29;
-			remoteInfo = "Pods-KWExtentionsTool_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15CD18BD56271DCA8131473662E675B9 /* KWExtentionsTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KWExtentionsTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EAADCD519097CC98A58BAE960F6C145 /* Pods-KWExtentionsTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWExtentionsTool_Tests-Info.plist"; sourceTree = "<group>"; };
-		2608BAE87B5814BDFE95123FE808B6B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		2A364DBE110D6D118C4A98BB0A1875C3 /* Pods-KWExtentionsTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KWExtentionsTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2F6118DECEEC11462D1A9FFCD2A0BC98 /* Pods-KWExtentionsTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWExtentionsTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0870C795C8B02D45A4DD746CC4A986AB /* Pods-KWExtentionsTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWExtentionsTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		15CD18BD56271DCA8131473662E675B9 /* KWExtentionsTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KWExtentionsTool; path = KWExtentionsTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2608BAE87B5814BDFE95123FE808B6B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3908E14B6A1E62F1884F6769CD1E8F4E /* Pods-KWExtentionsTool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KWExtentionsTool_Example"; path = Pods_KWExtentionsTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		392FA98CCB815BD47034596F3092B1C6 /* Pods-KWExtentionsTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KWExtentionsTool_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3CD4A741709EC491ABB606BDE1D767D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		49F94BDC969370DD8D94FF9C9F5FCFA4 /* Pods-KWExtentionsTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWExtentionsTool_Example-Info.plist"; sourceTree = "<group>"; };
-		4C8BC571242B343AD17B1C03413736C6 /* Pods-KWExtentionsTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KWExtentionsTool_Tests-dummy.m"; sourceTree = "<group>"; };
-		606D7F50BEC4D54D9C4ECDF73EA47894 /* Pods-KWExtentionsTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KWExtentionsTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		624C6E559A1DB837C8D2A9A59A3E6988 /* Pods-KWExtentionsTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KWExtentionsTool_Tests.modulemap"; sourceTree = "<group>"; };
+		3CD4A741709EC491ABB606BDE1D767D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5233AE2FAA094D51C05E8D7C1FFC9E83 /* Pods-KWExtentionsTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KWExtentionsTool_Example.modulemap"; sourceTree = "<group>"; };
 		69C22F8B6C785FAEA882DB46382D71BE /* KWExtentionsTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KWExtentionsTool-Info.plist"; sourceTree = "<group>"; };
 		6EB4EEB1A61F42ED279A160FCE2E5D2A /* KWExtentionsTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KWExtentionsTool.debug.xcconfig; sourceTree = "<group>"; };
+		72AA822E0153B6F07DA6620C0658E79A /* Pods-KWExtentionsTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWExtentionsTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E55438FFBD59F07A1AC78C1C87369A8 /* KWExtentionsTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KWExtentionsTool-dummy.m"; sourceTree = "<group>"; };
-		874609DA224E61B06371A24FEAE4C9EA /* Pods-KWExtentionsTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWExtentionsTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		87E78C3131BB0C5E2565F4F2DB1EE949 /* Pods-KWExtentionsTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KWExtentionsTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		995C0812D29FBF46A3DA70F1EECEEB5B /* Pods-KWExtentionsTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWExtentionsTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9AC48BF32F1BBEF2B790208749A58F1E /* Pods-KWExtentionsTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KWExtentionsTool_Example-dummy.m"; sourceTree = "<group>"; };
+		83C442FEE4AFACF1B9DBEDC3C7F944D0 /* Pods-KWExtentionsTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KWExtentionsTool_Example-umbrella.h"; sourceTree = "<group>"; };
 		9C13357F538947F5E4CCC91211969BAA /* KWExtentionsTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KWExtentionsTool-umbrella.h"; sourceTree = "<group>"; };
-		9D570297AADC9E8F60B4FB668EB551EA /* Pods-KWExtentionsTool_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KWExtentionsTool_Tests"; path = Pods_KWExtentionsTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A87B0194777A7362F31C6256B8E92B46 /* Pods-KWExtentionsTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWExtentionsTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A54DEBF881D78A2CEA31282511789910 /* Pods-KWExtentionsTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWExtentionsTool_Example-Info.plist"; sourceTree = "<group>"; };
+		A8B638A374BCBC18472C2804CCD4AA22 /* Pods-KWExtentionsTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KWExtentionsTool_Example-dummy.m"; sourceTree = "<group>"; };
 		B58122BA419A0A260DAD8A39D3CED612 /* KWExtentionsTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KWExtentionsTool.release.xcconfig; sourceTree = "<group>"; };
 		C110A54E0729178A52D8FCE4633DBD20 /* KWExtentionsTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KWExtentionsTool.modulemap; sourceTree = "<group>"; };
-		C13B7F040ABAB56BDACB4C0EA6FC3D9E /* Pods-KWExtentionsTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWExtentionsTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C48AB0A216FCB48DF74703DA36CC2409 /* Pods-KWExtentionsTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWExtentionsTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB3A724F5831B215B82BADD78ECF4000 /* Pods-KWExtentionsTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KWExtentionsTool_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D33E762B71229979B77A2C349884DB08 /* KWExtentionsTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KWExtentionsTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D33E762B71229979B77A2C349884DB08 /* KWExtentionsTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KWExtentionsTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D9B7C7CE55BD943915634C8D53F265CA /* Pods-KWExtentionsTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KWExtentionsTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D9E0D0CC8C8680F02EC069306C6F13DC /* KWExtentionsTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KWExtentionsTool-prefix.pch"; sourceTree = "<group>"; };
 		E55BC138E3094E22438481945FA49A90 /* Int+Extentions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+Extentions.swift"; sourceTree = "<group>"; };
-		EA880954F1C1B23A90CD2A1F5D23ECDB /* Pods-KWExtentionsTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KWExtentionsTool_Example.modulemap"; sourceTree = "<group>"; };
+		E778B58D5AA2A51A81D43586B08DFC94 /* Pods-KWExtentionsTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWExtentionsTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F14572D9D97528E4246F8C43AC6AC7AF /* String+Extentions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extentions.swift"; sourceTree = "<group>"; };
+		F3F477087A70931CA9AF8A2E62A7699F /* Pods-KWExtentionsTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KWExtentionsTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,14 +61,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C9001A9C2358049E7FEFB8CC93D5CBD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62FFBB85C9E594FAF06EDBDCE037BD35 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E98CE93928947E4123F52D8800078668 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +105,23 @@
 			path = KWExtentionsTool/Classes/Extentions;
 			sourceTree = "<group>";
 		};
+		280B5F7BBD06D138E2C85BBCB75CB4E9 /* Pods-KWExtentionsTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5233AE2FAA094D51C05E8D7C1FFC9E83 /* Pods-KWExtentionsTool_Example.modulemap */,
+				F3F477087A70931CA9AF8A2E62A7699F /* Pods-KWExtentionsTool_Example-acknowledgements.markdown */,
+				E778B58D5AA2A51A81D43586B08DFC94 /* Pods-KWExtentionsTool_Example-acknowledgements.plist */,
+				A8B638A374BCBC18472C2804CCD4AA22 /* Pods-KWExtentionsTool_Example-dummy.m */,
+				D9B7C7CE55BD943915634C8D53F265CA /* Pods-KWExtentionsTool_Example-frameworks.sh */,
+				A54DEBF881D78A2CEA31282511789910 /* Pods-KWExtentionsTool_Example-Info.plist */,
+				83C442FEE4AFACF1B9DBEDC3C7F944D0 /* Pods-KWExtentionsTool_Example-umbrella.h */,
+				72AA822E0153B6F07DA6620C0658E79A /* Pods-KWExtentionsTool_Example.debug.xcconfig */,
+				0870C795C8B02D45A4DD746CC4A986AB /* Pods-KWExtentionsTool_Example.release.xcconfig */,
+			);
+			name = "Pods-KWExtentionsTool_Example";
+			path = "Target Support Files/Pods-KWExtentionsTool_Example";
+			sourceTree = "<group>";
+		};
 		386A72D398746107943BEEF559F02430 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,31 +148,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		69FE2394EB5409801CC9D083530F90A2 /* Pods-KWExtentionsTool_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				624C6E559A1DB837C8D2A9A59A3E6988 /* Pods-KWExtentionsTool_Tests.modulemap */,
-				606D7F50BEC4D54D9C4ECDF73EA47894 /* Pods-KWExtentionsTool_Tests-acknowledgements.markdown */,
-				A87B0194777A7362F31C6256B8E92B46 /* Pods-KWExtentionsTool_Tests-acknowledgements.plist */,
-				4C8BC571242B343AD17B1C03413736C6 /* Pods-KWExtentionsTool_Tests-dummy.m */,
-				1EAADCD519097CC98A58BAE960F6C145 /* Pods-KWExtentionsTool_Tests-Info.plist */,
-				392FA98CCB815BD47034596F3092B1C6 /* Pods-KWExtentionsTool_Tests-umbrella.h */,
-				2F6118DECEEC11462D1A9FFCD2A0BC98 /* Pods-KWExtentionsTool_Tests.debug.xcconfig */,
-				995C0812D29FBF46A3DA70F1EECEEB5B /* Pods-KWExtentionsTool_Tests.release.xcconfig */,
-			);
-			name = "Pods-KWExtentionsTool_Tests";
-			path = "Target Support Files/Pods-KWExtentionsTool_Tests";
-			sourceTree = "<group>";
-		};
-		7425EBC0F4C6D8A0C4F52231821474A6 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AAFC6F25EEFC506917F2A4FAA11C5FA5 /* Pods-KWExtentionsTool_Example */,
-				69FE2394EB5409801CC9D083530F90A2 /* Pods-KWExtentionsTool_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		75A8A446DA3620A80E952F13B9A90C8A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,29 +163,11 @@
 			path = "Example/Pods/Target Support Files/KWExtentionsTool";
 			sourceTree = "<group>";
 		};
-		AAFC6F25EEFC506917F2A4FAA11C5FA5 /* Pods-KWExtentionsTool_Example */ = {
+		BF38CCCFCFA10286008813F82141E590 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA880954F1C1B23A90CD2A1F5D23ECDB /* Pods-KWExtentionsTool_Example.modulemap */,
-				2A364DBE110D6D118C4A98BB0A1875C3 /* Pods-KWExtentionsTool_Example-acknowledgements.markdown */,
-				C48AB0A216FCB48DF74703DA36CC2409 /* Pods-KWExtentionsTool_Example-acknowledgements.plist */,
-				9AC48BF32F1BBEF2B790208749A58F1E /* Pods-KWExtentionsTool_Example-dummy.m */,
-				CB3A724F5831B215B82BADD78ECF4000 /* Pods-KWExtentionsTool_Example-frameworks.sh */,
-				49F94BDC969370DD8D94FF9C9F5FCFA4 /* Pods-KWExtentionsTool_Example-Info.plist */,
-				87E78C3131BB0C5E2565F4F2DB1EE949 /* Pods-KWExtentionsTool_Example-umbrella.h */,
-				C13B7F040ABAB56BDACB4C0EA6FC3D9E /* Pods-KWExtentionsTool_Example.debug.xcconfig */,
-				874609DA224E61B06371A24FEAE4C9EA /* Pods-KWExtentionsTool_Example.release.xcconfig */,
-			);
-			name = "Pods-KWExtentionsTool_Example";
-			path = "Target Support Files/Pods-KWExtentionsTool_Example";
-			sourceTree = "<group>";
-		};
-		BBA49ABBB284221A34A5D11BAC9D884A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				15CD18BD56271DCA8131473662E675B9 /* KWExtentionsTool.framework */,
+				15CD18BD56271DCA8131473662E675B9 /* KWExtentionsTool */,
 				3908E14B6A1E62F1884F6769CD1E8F4E /* Pods-KWExtentionsTool_Example */,
-				9D570297AADC9E8F60B4FB668EB551EA /* Pods-KWExtentionsTool_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -231,8 +178,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				5262B44A6E04F16792B259864943AC7E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				BBA49ABBB284221A34A5D11BAC9D884A /* Products */,
-				7425EBC0F4C6D8A0C4F52231821474A6 /* Targets Support Files */,
+				BF38CCCFCFA10286008813F82141E590 /* Products */,
+				EF41FAC4BD8C5FFC800A7F443E92012C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -244,6 +191,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EF41FAC4BD8C5FFC800A7F443E92012C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				280B5F7BBD06D138E2C85BBCB75CB4E9 /* Pods-KWExtentionsTool_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -252,14 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B7800A28F73FB553B1B03C6C072C37 /* KWExtentionsTool-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38FAE9443C8A83CA871A15C43140605C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA913F4D1E618A4553E9AE28AAD9A69E /* Pods-KWExtentionsTool_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,25 +221,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5A5804E5FA822AF037C7181C2C48A2EC /* Pods-KWExtentionsTool_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 850D52F51C7B76E42BE9DBF8E23D4645 /* Build configuration list for PBXNativeTarget "Pods-KWExtentionsTool_Tests" */;
-			buildPhases = (
-				38FAE9443C8A83CA871A15C43140605C /* Headers */,
-				0F333D95B6FC7CB9F17E42BE2CE425DC /* Sources */,
-				62FFBB85C9E594FAF06EDBDCE037BD35 /* Frameworks */,
-				F3A51EC0295AE9306A3F698929A44809 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				148F7D8F2B9E6EE7E2394C9A8BFDD09B /* PBXTargetDependency */,
-			);
-			name = "Pods-KWExtentionsTool_Tests";
-			productName = Pods_KWExtentionsTool_Tests;
-			productReference = 9D570297AADC9E8F60B4FB668EB551EA /* Pods-KWExtentionsTool_Tests */;
-			productType = "com.apple.product-type.framework";
-		};
 		7A167AD892E7316566CD833D2BE32E29 /* Pods-KWExtentionsTool_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CE92C0C0FBFB3A4B2B2F33A2910EA71 /* Build configuration list for PBXNativeTarget "Pods-KWExtentionsTool_Example" */;
@@ -327,7 +255,7 @@
 			);
 			name = KWExtentionsTool;
 			productName = KWExtentionsTool;
-			productReference = 15CD18BD56271DCA8131473662E675B9 /* KWExtentionsTool.framework */;
+			productReference = 15CD18BD56271DCA8131473662E675B9 /* KWExtentionsTool */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -348,13 +276,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BBA49ABBB284221A34A5D11BAC9D884A /* Products */;
+			productRefGroup = BF38CCCFCFA10286008813F82141E590 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B2495CCFA52EEC39AE3FFE72481A3B37 /* KWExtentionsTool */,
 				7A167AD892E7316566CD833D2BE32E29 /* Pods-KWExtentionsTool_Example */,
-				5A5804E5FA822AF037C7181C2C48A2EC /* Pods-KWExtentionsTool_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -374,24 +301,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3A51EC0295AE9306A3F698929A44809 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F333D95B6FC7CB9F17E42BE2CE425DC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BBBFC1F43781C54CC961236D20E8ECE5 /* Pods-KWExtentionsTool_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A717630183A196E4848812501E2C99C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,12 +325,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		148F7D8F2B9E6EE7E2394C9A8BFDD09B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-KWExtentionsTool_Example";
-			target = 7A167AD892E7316566CD833D2BE32E29 /* Pods-KWExtentionsTool_Example */;
-			targetProxy = DF383A9E7F5B30AD9AB78E0FD1EB3BE2 /* PBXContainerItemProxy */;
-		};
 		AD9D85A900CC656A2EEB358B02CDC7CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KWExtentionsTool;
@@ -428,41 +334,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06D456EFD15CABE318C900BDA8FC0BD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 995C0812D29FBF46A3DA70F1EECEEB5B /* Pods-KWExtentionsTool_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KWExtentionsTool_Tests/Pods-KWExtentionsTool_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KWExtentionsTool_Tests/Pods-KWExtentionsTool_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1B4AA77FAEE153C81F37D7FDBE10AC3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6EB4EEB1A61F42ED279A160FCE2E5D2A /* KWExtentionsTool.debug.xcconfig */;
@@ -482,7 +353,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.1.1;
 				MODULEMAP_FILE = "Target Support Files/KWExtentionsTool/KWExtentionsTool.modulemap";
 				PRODUCT_MODULE_NAME = KWExtentionsTool;
 				PRODUCT_NAME = KWExtentionsTool;
@@ -581,7 +451,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.1.1;
 				MODULEMAP_FILE = "Target Support Files/KWExtentionsTool/KWExtentionsTool.modulemap";
 				PRODUCT_MODULE_NAME = KWExtentionsTool;
 				PRODUCT_NAME = KWExtentionsTool;
@@ -651,7 +520,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -659,7 +529,7 @@
 		};
 		9565895F398159613ABA4CA86D0F4862 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 874609DA224E61B06371A24FEAE4C9EA /* Pods-KWExtentionsTool_Example.release.xcconfig */;
+			baseConfigurationReference = 0870C795C8B02D45A4DD746CC4A986AB /* Pods-KWExtentionsTool_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -692,43 +562,9 @@
 			};
 			name = Release;
 		};
-		995B543A665086B6D0FE65BD4875ACD3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F6118DECEEC11462D1A9FFCD2A0BC98 /* Pods-KWExtentionsTool_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KWExtentionsTool_Tests/Pods-KWExtentionsTool_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KWExtentionsTool_Tests/Pods-KWExtentionsTool_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		ABE66B3C7E91BC88F91F618CBE0EB605 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C13B7F040ABAB56BDACB4C0EA6FC3D9E /* Pods-KWExtentionsTool_Example.debug.xcconfig */;
+			baseConfigurationReference = 72AA822E0153B6F07DA6620C0658E79A /* Pods-KWExtentionsTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -777,15 +613,6 @@
 			buildConfigurations = (
 				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
 				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		850D52F51C7B76E42BE9DBF8E23D4645 /* Build configuration list for PBXNativeTarget "Pods-KWExtentionsTool_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				995B543A665086B6D0FE65BD4875ACD3 /* Debug */,
-				06D456EFD15CABE318C900BDA8FC0BD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
