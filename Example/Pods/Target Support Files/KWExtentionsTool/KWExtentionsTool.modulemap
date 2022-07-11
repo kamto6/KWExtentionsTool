@@ -1,0 +1,6 @@
+framework module KWExtentionsTool {
+  umbrella header "KWExtentionsTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

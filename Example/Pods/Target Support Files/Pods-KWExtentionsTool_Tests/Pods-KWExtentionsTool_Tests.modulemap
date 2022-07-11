@@ -1,0 +1,6 @@
+framework module Pods_KWExtentionsTool_Tests {
+  umbrella header "Pods-KWExtentionsTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

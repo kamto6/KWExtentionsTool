@@ -1,0 +1,22 @@
+{
+  "name": "KWExtentionsTool",
+  "version": "0.1.0",
+  "summary": "A short description of KWExtentionsTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jiekangwei/KWExtentionsTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jiekangwei": "jiekangwei@toplus365.com"
+  },
+  "source": {
+    "git": "https://github.com/Jiekangwei/KWExtentionsTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "KWExtentionsTool/Classes/**/*"
+}
