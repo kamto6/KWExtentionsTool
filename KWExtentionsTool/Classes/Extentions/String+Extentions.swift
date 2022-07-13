@@ -12,4 +12,7 @@ public extension String {
     func run() {
         print(self)
     }
+    func run() {
+        print(self)
+    }
 }

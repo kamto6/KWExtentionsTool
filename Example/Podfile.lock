@@ -1,5 +1,5 @@
 PODS:
-  - KWExtentionsTool (0.1.1)
+  - KWExtentionsTool (0.1.3)
 
 DEPENDENCIES:
   - KWExtentionsTool (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KWExtentionsTool: cb48a873fa6aaa3577ac710a1fb77339f2256bf0
+  KWExtentionsTool: ed0a5e4a90b3b2031343268212b60398c247b68b
 
 PODFILE CHECKSUM: 8c9c0a5258314d88fded7c7fca539c5f36301874
 
